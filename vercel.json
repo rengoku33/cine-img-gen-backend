@@ -1,0 +1,10 @@
+{
+  "devCommand": "npm run dev",
+  "buildCommand": "npm run build",
+  "routes": [
+    {
+      "src": "/src/(.*)",
+      "dest": "/index.ts"
+    }
+  ]
+}
