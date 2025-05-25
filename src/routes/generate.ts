@@ -1,5 +1,5 @@
 import express, { NextFunction, Request, Response } from 'express';
-import { generateImage } from '../services/starryai.ts';
+import { generateImage } from '../services/starryai.js';
 
 const router = express.Router();
 
